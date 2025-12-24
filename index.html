@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pranav Sarotra - Computer Science Student specializing in Data Science & AI. Portfolio showcasing projects, skills, and experience.">
+    <meta name="keywords" content="Pranav Sarotra, Portfolio, Computer Science, Data Science, AI, Machine Learning">
+    <meta name="author" content="Pranav Sarotra">
+    
+    <title>Pranav Sarotra | Data Science & AI Specialist</title>
+    
+    <!-- Google Fonts - Inter for clean, professional typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============================================
+         NAVIGATION BAR
+         Sticky navigation with smooth scroll links
+    ============================================= -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo/Name -->
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">Pranav</span>
+                <span class="logo-accent">Sarotra</span>
+            </a>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Mobile Hamburger Menu Button -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         Above the fold - First impression
+    ============================================= -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <!-- Profile Image -->
+            <div class="hero-image-wrapper">
+                <!-- TODO: Upload your professional headshot to assets/images/pranav-profile.png -->
+                <img 
+                    src="assets/images/pranav-profile.png" 
+                    alt="Pranav Sarotra - Professional Portrait" 
+                    class="hero-image"
+                    loading="eager"
+                >
+                <div class="hero-image-border"></div>
+                <div class="hero-image-glow"></div>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I am</p>
+                <h1 class="hero-title">Pranav Sarotra</h1>
+                
+                <!-- Animated Typing Text -->
+                <div class="hero-subtitle-wrapper">
+                    <span class="hero-subtitle-static">I'm&nbsp;</span>
+                    <span class="hero-subtitle-typed" id="typed-text"></span>
+                    <span class="typed-cursor">|</span>
+                </div>
+                
+                <p class="hero-description">
+                    Based in Selangor, Malaysia. Student at Taylor's University, passionate about building hybrid AI and rule-based 
+                    security systems.
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="hero-socials">
+                    <a href="https://linkedin.com/in/pranavsarotra" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/pranav-sarotra" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:psarotra@gmail.com" class="social-link" aria-label="Send Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll Down</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+        
+        <!-- Background Decorations -->
+        <div class="hero-bg-decoration">
+            <div class="decoration-circle decoration-1"></div>
+            <div class="decoration-circle decoration-2"></div>
+            <div class="decoration-grid"></div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT ME SECTION
+    ============================================= -->
+    <section class="about section" id="about">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-subtitle">Get To Know</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <!-- About Main Content -->
+                <div class="about-text">
+                    <div class="about-card fade-in">
+                        <div class="about-card-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Professional Summary</h3>
+                        <p>
+                            Experienced Computer Science (Honours) Student skilled at building with 
+                            Java, C++, JavaScript, HTML, CSS, MySQL, and Python. Successfully managed 
+                            multiple project components, ensuring timely completion of deliverables by 
+                            coordinating cross-functional teams and streamlining workflows to meet 
+                            organizational goals.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card fade-in">
+                        <div class="about-card-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h3>Research & Academics</h3>
+                        <p>
+                            Conducted literature reviews and academic writing projects, demonstrating 
+                            the ability to synthesize information and present findings clearly. 
+                            Experienced in operating Google & Microsoft Office Suite.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- About Sidebar - Personal Details -->
+                <div class="about-sidebar fade-in">
+                    <h3 class="sidebar-title">Personal Details</h3>
+                    <ul class="personal-details">
+                        <li>
+                            <i class="fas fa-flag"></i>
+                            <div>
+                                <span class="detail-label">Nationality</span>
+                                <span class="detail-value">Indian</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-flag"></i>
+                            <div>
+                                <span class="detail-label">PR Holder</span>
+                                <span class="detail-value">Kenya</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="detail-label">Location</span>
+                                <span class="detail-value">Selangor, Malaysia</span>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <h4 class="sidebar-subtitle">Languages</h4>
+                    <div class="languages-grid">
+                        <div class="language-item">
+                            <span class="language-name">English</span>
+                            <span class="language-level">Native</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">Hindi</span>
+                            <span class="language-level">Native</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">Punjabi</span>
+                            <span class="language-level">Native</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">French</span>
+                            <span class="language-level">Elementary</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">Swahili</span>
+                            <span class="language-level">Elementary</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SKILLS SECTION
+    ============================================= -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-subtitle">What I Know</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category fade-in">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-database"></i>
+                                <span>SQL (MySQL)</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI & Data Science -->
+                <div class="skill-category fade-in">
+                    <div class="skill-category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Data Science</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-robot"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-network-wired"></i>
+                                <span>Deep Learning</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Data Analysis</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Data Visualization</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 98%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-search"></i>
+                                <span>Data Mining</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-calculator"></i>
+                                <span>Statistical Modelling</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-cogs"></i>
+                                <span>Cognitive Computing</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-stream"></i>
+                                <span>Streamlit</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Platforms -->
+                <div class="skill-category fade-in">
+                    <div class="skill-category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git/GitHub</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-aws"></i>
+                                <span>Amazon Web Services</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-network-wired"></i>
+                                <span>Cisco Packet Tracer</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-microchip"></i>
+                                <span>Autodesk Tinkercad</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-salesforce"></i>
+                                <span>Salesforce</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 72%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Concepts -->
+                <div class="skill-category fade-in">
+                    <div class="skill-category-header">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Concepts</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-cubes"></i>
+                                <span>Object-Oriented Programming</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-database"></i>
+                                <span>Database Management</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-sitemap"></i>
+                                <span>System Design</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>SDLC</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-paint-brush"></i>
+                                <span>UI/UX Design</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROJECTS SECTION
+    ============================================= -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Cybersecurity Threat Classifier (Featured) -->
+                <article class="project-card featured fade-in">
+                    <div class="project-image-wrapper">
+                        <!-- TODO: Upload a screenshot of your Cybersecurity project to assets/images/cybersecurity-project.jpg -->
+                        <img 
+                            src="assets/images/cybersecurity-project.jpg" 
+                            alt="Cybersecurity Threat Classifier Project Screenshot" 
+                            class="project-image"
+                            loading="lazy"
+                        >
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://cybersecurity-threat-classifier.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/pranav-sarotra/cybersecurity-threat-classifier" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <span class="project-badge">Featured</span>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hybrid AI + Rule-Based Cybersecurity Threat Classifier</h3>
+                        <p class="project-description">
+                            Developed a comprehensive security portal using Streamlit to analyze and 
+                            classify digital threats like phishing and malware. This portal uses a 
+                            blend of Machine Learning (Naive Bayes, Logistic Regression) and Rule-Based 
+                            logic to identify phishing attempts with high confidence. Features integrated 
+                            real-time data visualization and Cognitive Computing features for customized 
+                            threat analysis.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">AI</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://cybersecurity-threat-classifier.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/pranav-sarotra/cybersecurity-threat-classifier" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 2: Calorie Tracking App -->
+                <article class="project-card fade-in">
+                    <div class="project-image-wrapper">
+                        <div class="project-placeholder">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <span class="project-link disabled" aria-label="Project Demo Not Available">
+                                    <i class="fas fa-desktop"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Calorie Tracking Desktop App</h3>
+                        <p class="project-description">
+                            Developed a Java desktop application using JavaFX framework as Lead Developer. 
+                            Implemented a calorie tracking system where users can log daily intake. Led 
+                            end-to-end development including requirements gathering, UI/UX design, and 
+                            application architecture adhering to object-oriented programming principles.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 3: Portfolio Website -->
+                <article class="project-card fade-in">
+                    <div class="project-image-wrapper">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#home" class="project-link" aria-label="View Current Website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            Designed and built this responsive personal portfolio website to demonstrate 
+                            adept understanding of web development principles using HTML, CSS, and 
+                            JavaScript. Features modern design, smooth animations, and full responsiveness.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         EXPERIENCE & LEADERSHIP SECTION
+    ============================================= -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Experience & Leadership</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Lead Developer</h3>
+                            <span class="timeline-company">Advanced Programming Module</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span class="timeline-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kuala Lumpur, Malaysia
+                            </span>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                Oct 2024 – Jan 2025
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Led development of Java desktop applications, coordinating team efforts 
+                            and ensuring adherence to OOP principles and best practices.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Orientation Leader</h3>
+                            <span class="timeline-company">International Medical University</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span class="timeline-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kuala Lumpur, Malaysia
+                            </span>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                May 2023 – Aug 2023
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Guided new students through university orientation, demonstrating 
+                            leadership and communication skills.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Media Director</h3>
+                            <span class="timeline-company">Model United Nations</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span class="timeline-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Nairobi, Kenya
+                            </span>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                June 2020 – June 2021
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Managed all media operations, including photography, videography, 
+                            and digital content creation for MUN events.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">School Prefect</h3>
+                            <span class="timeline-company">Oshwal Academy Senior High</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span class="timeline-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Nairobi, Kenya
+                            </span>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                Sept 2019 – June 2021
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Served as a student leader, maintaining discipline and representing 
+                            the student body in administrative matters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         EDUCATION & CERTIFICATIONS SECTION
+    ============================================= -->
+    <section class="education section" id="education">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-subtitle">My Background</span>
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="education-grid">
+                <!-- Education Column -->
+                <div class="education-column">
+                    <h3 class="column-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        Education
+                    </h3>
+                    
+                    <!-- Education Card 1 -->
+                    <div class="education-card fade-in">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-degree">Bachelor of Science in Computer Science (Honours)</h4>
+                            <p class="education-school">Taylor's University</p>
+                            <p class="education-specialization">
+                                Specialisation in Data Science with Minor in Artificial Intelligence
+                            </p>
+                            <div class="education-meta">
+                                <span class="education-date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2024 - Present
+                                </span>
+                                <span class="education-gpa">
+                                    <i class="fas fa-star"></i>
+                                    GPA: 3.74 / 4.00
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education Card 2 -->
+                    <div class="education-card fade-in">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-degree">A Levels</h4>
+                            <p class="education-school">Oshwal Academy Nairobi Senior High</p>
+                            <p class="education-specialization">
+                                Biology (A*), Maths (A), Chemistry (A), Physics (B)
+                            </p>
+                            <div class="education-meta">
+                                <span class="education-date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2012 - 2021
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certifications Column -->
+                <div class="certifications-column">
+                    <h3 class="column-title">
+                        <i class="fas fa-certificate"></i>
+                        Certifications
+                    </h3>
+                    
+                    <div class="certifications-grid">
+                        <!-- Certification Card 1 -->
+                        <div class="certification-card fade-in">
+                            <div class="certification-logo">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="certification-content">
+                                <h4 class="certification-name">AWS Cloud Practitioner Essentials</h4>
+                                <p class="certification-issuer">Amazon Web Services</p>
+                                <span class="certification-date">Issued Dec 2024</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Certification Card 2 -->
+                        <div class="certification-card fade-in">
+                            <div class="certification-logo cisco">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="certification-content">
+                                <h4 class="certification-name">Introduction to Packet Tracer</h4>
+                                <p class="certification-issuer">Cisco</p>
+                                <span class="certification-date">Issued Dec 2024</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Certification Card 3 -->
+                        <div class="certification-card fade-in">
+                            <div class="certification-logo oracle">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="certification-content">
+                                <h4 class="certification-name">Java Foundations Certified Junior Associate</h4>
+                                <p class="certification-issuer">Oracle</p>
+                                <span class="certification-date">Certified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         HONORS & AWARDS SECTION
+    ============================================= -->
+    <section class="honors section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-subtitle">Recognition</span>
+                <h2 class="section-title">Honors & Awards</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="honors-grid">
+                <!-- Award Card 1 -->
+                <div class="honor-card fade-in">
+                    <div class="honor-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h4 class="honor-title">Dean's List</h4>
+                    <p class="honor-description">Academic excellence recognition</p>
+                </div>
+                
+                <!-- Award Card 2 -->
+                <div class="honor-card fade-in">
+                    <div class="honor-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4 class="honor-title">Highest Project Score</h4>
+                    <p class="honor-description">OOP Module Achievement</p>
+                </div>
+                
+                <!-- Award Card 3 -->
+                <div class="honor-card fade-in">
+                    <div class="honor-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="honor-title">President's Award</h4>
+                    <p class="honor-description">Bronze Level Achievement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+    ============================================= -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-subtitle">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm currently open to work opportunities, internships, and collaborations from all over the world. 
+                    Feel free to reach out!
+                </p>
+                
+                <div class="contact-grid">
+                    <!-- Email Card -->
+                    <a href="mailto:psarotra@gmail.com" class="contact-card fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 class="contact-label">Email</h4>
+                        <p class="contact-value">psarotra@gmail.com</p>
+                    </a>
+                    
+                    <!-- Phone Card -->
+                    <div class="contact-card fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4 class="contact-label">Phone</h4>
+                        <p class="contact-value">+60 1136108271</p>
+                        <p class="contact-value secondary">+254 701222703</p>
+                    </div>
+                    
+                    <!-- Location Card -->
+                    <div class="contact-card fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4 class="contact-label">Location</h4>
+                        <p class="contact-value">Subang Jaya, Selangor</p>
+                        <p class="contact-value secondary">Malaysia</p>
+                    </div>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="contact-socials">
+                    <p class="social-label">Find me on</p>
+                    <div class="social-links-large">
+                        <a href="https://linkedin.com/in/pranavsarotra" target="_blank" rel="noopener noreferrer" class="social-link-large">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/pranav-sarotra" target="_blank" rel="noopener noreferrer" class="social-link-large">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+    ============================================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">
+                    © 2025 Pranav Sarotra. Built with 
+                    <span class="footer-tech">HTML</span>, 
+                    <span class="footer-tech">CSS</span>, and 
+                    <span class="footer-tech">JavaScript</span>.
+                </p>
+                <a href="#home" class="footer-back-to-top" aria-label="Back to top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
