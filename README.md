@@ -53,6 +53,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 - 💼 LinkedIn: [linkedin.com/in/pranavsarotra](https://linkedin.com/in/pranavsarotra)
 - 🐙 GitHub: [github.com/pranav-sarotra](https://github.com/pranav-sarotra)
 - 📧 Email: psarotra@gmail.com
+- ☎️ Phone: (+60) 1136108271 / (+254) 701222703
 - 📍 Location: Subang Jaya, Selangor, Malaysia
 
 ## 📜 License
